@@ -1,0 +1,17 @@
+{
+  "name": "forest-dash",
+  "version": "2.0.0",
+  "description": "Forest Dash: runner infinito en Phaser 3 con ranking en MySQL",
+  "private": true,
+  "main": "servidor/servidor.js",
+  "scripts": {
+    "start": "node servidor/servidor.js",
+    "setup": "node servidor/preparar-bd.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
