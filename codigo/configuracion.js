@@ -10,7 +10,7 @@ const CONFIG = {
   MAX_SCORE: 100000,
 
   LEVEL_M: 2000,      // metros por nivel (cada nivel dura aprox. 50–60 s)
-  MAX_SPEED: 900,     // velocidad máxima del mundo (px/s)
+  MAX_SPEED: 950,     // velocidad máxima del mundo (px/s)
   GRAVEDAD: 1500,
   SALTO: 620,         // impulso del salto (mantener presionado = salto más alto)
 
@@ -80,7 +80,7 @@ const CONFIG = {
   // leaves: caen hojas | fireflies: luciérnagas | ground: colores del suelo
   LEVELS: [
     {
-      name: 'Bosque encantado', speed: 300, ramp: 0.045, gap: [1300, 1900], bg: 'fondo_encantado',
+      name: 'Bosque encantado', speed: 335, ramp: 0.045, gap: [1300, 1900], bg: 'fondo_encantado',
       obst: ['tronco1', 'tronco2', 'roca2', 'roca4', 'roca5'], doble: 0.10,
       eventos: { obstaculo: 6, rana: 2, zona: 3, nido: 2 }, zonas: ['puas'], bases: ['plat7', 'plat2', 'plat8', 'plat1', 'plat13'],
       fuego: 0.25, dragones: 3,
@@ -88,7 +88,7 @@ const CONFIG = {
       ground: { top: 0x5fbf4a, light: 0x8ee26a, soil: 0x7a4d28, dark: 0x5e3a1d, stone: 0x8a6a45 }
     },
     {
-      name: 'Atardecer de otoño', speed: 410, ramp: 0.06, gap: [1000, 1500], bg: 'fondo3',
+      name: 'Atardecer de otoño', speed: 450, ramp: 0.06, gap: [1000, 1500], bg: 'fondo3',
       obst: ['tronco1', 'tronco2', 'roca1', 'roca2', 'roca3', 'roca4', 'tocon'], doble: 0.25,
       eventos: { obstaculo: 5, rana: 3, zona: 3, nido: 2 }, zonas: ['puas', 'lava'], bases: ['plat10', 'plat12', 'plat13', 'plat11', 'plat2'],
       fuego: 0.40, dragones: 3,
@@ -96,7 +96,7 @@ const CONFIG = {
       ground: { top: 0xc58a2b, light: 0xe8b84a, soil: 0x6e3f1c, dark: 0x522d14, stone: 0x8c5a35 }
     },
     {
-      name: 'Noche de luciérnagas', speed: 520, ramp: 0.07, gap: [800, 1250], bg: 'fondo2',
+      name: 'Noche de luciérnagas', speed: 570, ramp: 0.07, gap: [800, 1250], bg: 'fondo2',
       obst: ['tronco1', 'tronco2', 'roca1', 'roca2', 'roca3', 'roca4', 'roca5', 'tocon', 'losa'], doble: 0.35,
       eventos: { obstaculo: 4, rana: 3, zona: 4, nido: 3 }, zonas: ['lava', 'puas'], bases: ['plat6', 'plat4', 'plat5', 'plat8', 'plat1', 'plat13'],
       fuego: 0.50, dragones: 4,
